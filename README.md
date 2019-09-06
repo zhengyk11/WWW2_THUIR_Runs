@@ -22,7 +22,7 @@ nDCG, ERR, Q-measure
 
 Deep matching model (SDMM) contains a local matching layer and a recurrent neural network (RNN) layer. The local matching layer aims to capture the semantic matching between query and sentence. RNN captures the signals of each sequential sentence. The overall framework is 
 
-![avatar](/Users/lixs/Learning/OneDrive/THU/Attention_step2/papers/NTCIR-report/WWW2_THUIR_Runs/sdmm.jpg)
+![avatar](https://github.com/zhengyk11/WWW2_THUIR_Runs/raw/lixs/sdmm.jpg)
 
 
 Run the code: 
