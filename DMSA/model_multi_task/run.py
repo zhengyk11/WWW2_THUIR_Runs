@@ -119,7 +119,7 @@ def parse_args():
                                help='data_parallel')
     path_settings.add_argument('--gpu_num', type=int, default=1,
                                help='gpu_num')
-    path_settings.add_argument('--train_mode', type=int, default=0,
+    path_settings.add_argument('--train_mode', type=int, default=2,
                                help='train_mode')
     path_settings.add_argument('--train_pair_num', type=int, default=500000,
                                help='train_pair_num')

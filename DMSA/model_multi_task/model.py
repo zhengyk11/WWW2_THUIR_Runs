@@ -81,7 +81,7 @@ class Model(object):
                 param.requires_grad = False
             for param in self.model.cm_predictor.parameters():
                 param.requires_grad = False
-        elif self.args.train_mode == 2:
+        else: # if self.args.train_mode == 2:
             for param in self.model.parameters():
                 param.requires_grad = True
 
