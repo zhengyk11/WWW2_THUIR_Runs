@@ -58,7 +58,7 @@ We used a portion of [ClueWeb12](https://lemurproject.org/clueweb12/) corpus as 
 
 #### Learning to Rank
 
-The codes for learning to rank methods are all in the *learning-to-rank* folder. We adopted three kinds of learning to rank methods: LambdaMART, AdaRank, and Coordinate Ascent, [Ranklib]([https://sourceforge.net/p/lemur/wiki/RankLib%20How%20to%20use/](https://sourceforge.net/p/lemur/wiki/RankLib How to use/)) package is the toolkit we used to implement them. 
+The codes for learning to rank methods are all in the *learning-to-rank* folder. We adopted three kinds of learning to rank methods: LambdaMART, AdaRank, and Coordinate Ascent, [Ranklib](https://sourceforge.net/p/lemur/wiki/RankLib%20How%20to%20use/) package is the toolkit we used to implement them. 
 
 ##### Dataset
 
