@@ -174,19 +174,10 @@ Run the code:
 2. ``python baseline_main.py --prototype baseline_config`` 
 
 
-
-
-![avatar](https://github.com/zhengyk11/WWW2_THUIR_Runs/raw/lixs/sdmm.jpg)
-
-
-Run the code: 
-1. set the data address in ``config.py``
-2. ``python baseline_main.py --prototype baseline_config`` 
-
 #### Results
 
 
-## English subtask 【储著敏】
+## English subtask
 
 ### Model
 
