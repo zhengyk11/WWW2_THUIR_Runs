@@ -248,3 +248,11 @@ The experimental results can be found in [our report](http://research.nii.ac.jp/
 
 ## Q&A
 
+- How to contact with us?
+
+Please contact one of the author, Yukun Zheng by his email ``zhengyk13@gmail.com`` if you have any question.
+
+Waiting for other questions and we will list some important ones here
+
+
+
