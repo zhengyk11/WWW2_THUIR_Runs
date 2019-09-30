@@ -102,7 +102,10 @@ We just used the default parameters of the Ranklib package to implement all thes
 
 The experimental results can be found in [our report](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings14/pdf/ntcir/03-NTCIR14-WWW-ZhengY.pdf).
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> czm
 
 ## Q&A
 
