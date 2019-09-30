@@ -164,7 +164,15 @@ We put our results in the directory ``results``:
 
 #### SDMM
 
-【李祥圣】
+Deep matching model (SDMM) contains a local matching layer and a recurrent neural network (RNN) layer. The local matching layer aims to capture the semantic matching between query and sentence. RNN captures the signals of each sequential sentence. The overall framework is 
+
+![avatar](https://github.com/zhengyk11/WWW2_THUIR_Runs/raw/lixs/sdmm.jpg)
+
+
+Run the code: 
+1. set the data address in ``config.py``
+2. ``python baseline_main.py --prototype baseline_config`` 
+
 
 
 #### Results
