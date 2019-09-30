@@ -226,7 +226,7 @@ At the same time, the testing command can be typed like this:
 java -jar RankLib.jar -load mymodel.txt -rank myResultLists.txt -score myScoreFile.txt
 ~~~
 
-The more detailed information about the usage of the Ranklib package can be found at [https://sourceforge.net/p/lemur/wiki/RankLib%20How%20to%20use/](https://sourceforge.net/p/lemur/wiki/RankLib How to use/).
+The more detailed information about the usage of the Ranklib package can be found at [Ranklib How to use]([https://sourceforge.net/p/lemur/wiki/RankLib%20How%20to%20use/).
 
 ### Experiment
 
