@@ -128,27 +128,6 @@ python run.py --algo rank_0914 --predict --batch_size 20 --eval_freq 100 --embed
 python run.py --algo rank_0914_adam --predict --batch_size 20 --eval_freq 100 --embed_size 200 --hidden_size 100 --train_pair_num 10000000 --vocab_dir ../data/vocab_0910_200w --test_files ../data/runtime_data/ntcir14_test_bm25_top100.txt --max_p_len 1000 --max_q_len 20 --qfreq_file ../data/qid_query_freq.txt --dfreq_file ../data/qid_uid_freq.txt --annotation_file ../data/sogou-qcl_human_relevance_0630_no_-1.txt --result_dir ../data/result_0914_adam --model_dir ../data/model_0914_adam --summary_dir ../data/summary_0914_adam --num_steps 20000000 --dropout_rate 0.2 --learning_rate 0.005 --patience 5 --check_point 20000000 --optim adam --load_model 300
 ```
 
-
-##### Run script
-
-
-We tried two models using different optimizers: adadelta and adam. You can quickly start to train the same models in the directory ``model_multi_task`` using the following commands:
-
-```
-python run.py --algo rank_0914 --train --batch_size 20 --eval_freq 100 --embed_size 200 --hidden_size 100 --train_pair_num 10000000 --vocab_dir ../data/vocab_0910_200w --train_files ../data/runtime_data/cm_bm25_qfile_20180507_100w_merge.txt --dev_files ../data/runtime_data/ntcir13_test_bm25_top100_4level.txt --max_p_len 1000 --max_q_len 20 --qfreq_file ../data/qid_query_freq.txt --dfreq_file ../data/qid_uid_freq.txt --annotation_file ../data/sogou-qcl_human_relevance_0630_no_-1.txt --result_dir ../data/result_0914 --model_dir ../data/model_0914 --summary_dir ../data/summary_0914 --num_steps 20000000 --dropout_rate 0.2 --learning_rate 0.01 --patience 5 --weight_decay 5e-5
-
-python run.py --algo rank_0914_adam --train --batch_size 20 --eval_freq 100 --embed_size 200 --hidden_size 100 --train_pair_num 10000000 --vocab_dir ../data/vocab_0910_200w --train_files ../data/runtime_data/cm_bm25_qfile_20180507_100w_merge.txt --dev_files ../data/runtime_data/ntcir13_test_bm25_top100_4level.txt --max_p_len 1000 --max_q_len 20 --qfreq_file ../data/qid_query_freq.txt --dfreq_file ../data/qid_uid_freq.txt --annotation_file ../data/sogou-qcl_human_relevance_0630_no_-1.txt --result_dir ../data/result_0914_adam --model_dir ../data/model_0914_adam --summary_dir ../data/summary_0914_adam --num_steps 20000000 --dropout_rate 0.2 --learning_rate 0.01 --patience 5 --check_point 20000000 --optim adam
-```
-
-
-For predicting rank lists based on the two pre-trained models, you can just use the following commands:
-
-```
-python run.py --algo rank_0914 --predict --batch_size 20 --eval_freq 100 --embed_size 200 --hidden_size 100 --train_pair_num 10000000 --vocab_dir ../data/vocab_0910_200w --test_files ../data/runtime_data/ntcir14_test_bm25_top100.txt --max_p_len 1000 --max_q_len 20 --qfreq_file ../data/qid_query_freq.txt --dfreq_file ../data/qid_uid_freq.txt --annotation_file ../data/sogou-qcl_human_relevance_0630_no_-1.txt --result_dir ../data/result_0914 --model_dir ../data/model_0914 --summary_dir ../data/summary_0914 --num_steps 20000000 --dropout_rate 0.2 --learning_rate 0.005 --patience 5 --check_point 20000000 --load_model 11900     
-
-python run.py --algo rank_0914_adam --predict --batch_size 20 --eval_freq 100 --embed_size 200 --hidden_size 100 --train_pair_num 10000000 --vocab_dir ../data/vocab_0910_200w --test_files ../data/runtime_data/ntcir14_test_bm25_top100.txt --max_p_len 1000 --max_q_len 20 --qfreq_file ../data/qid_query_freq.txt --dfreq_file ../data/qid_uid_freq.txt --annotation_file ../data/sogou-qcl_human_relevance_0630_no_-1.txt --result_dir ../data/result_0914_adam --model_dir ../data/model_0914_adam --summary_dir ../data/summary_0914_adam --num_steps 20000000 --dropout_rate 0.2 --learning_rate 0.005 --patience 5 --check_point 20000000 --optim adam --load_model 300
-```
-
 ##### Results
 
 We put our results in the directory ``results``:
